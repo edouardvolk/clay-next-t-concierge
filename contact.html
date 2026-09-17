@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Clay Next T LLC</title>
+<meta name="description" content="Send your travel brief to Clay Next T LLC. Travel concierge and lifestyle services — flights, stays, transfers, event tickets and coordination.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <span class="brand__mark">Clay <em>Next T</em></span>
+    <span class="brand__sub">Concierge</span>
+  </a>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" aria-current="page">Contact</a>
+    <a class="btn" href="#request" data-magnetic="0.25">Start a request <span class="btn__arrow">&rarr;</span></a>
+  </nav>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<main>
+
+  <section class="page-hero" data-spotlight>
+    <div class="page-hero__bg" data-parallax="0.1"
+         style="background-image:url('https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&amp;fit=crop&amp;w=2000&amp;q=80')"></div>
+    <div class="hero__glow"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Contact</p>
+      <h1 data-reveal>
+        <span class="split-line"><span>Tell us the brief.</span></span>
+        <span class="split-line"><span style="--d:.08s"><em class="italic">We'll do the rest.</em></span></span>
+      </h1>
+      <p class="lead" data-reveal style="--d:.18s; margin-top:2rem;">
+        A first reply usually arrives within two hours, and always within 24.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="request">
+    <div class="wrap">
+      <div class="contact-grid">
+
+        <div data-reveal>
+          <p class="eyebrow">Send a request</p>
+          <h2 style="margin-bottom:2.2rem">Start here.</h2>
+
+          <form data-form novalidate>
+            <div class="field">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="service">What do you need?</label>
+              <select id="service" name="service">
+                <option>Travel arrangements</option>
+                <option>Accommodation</option>
+                <option>Transportation</option>
+                <option>Event ticket sourcing</option>
+                <option>Dining &amp; lifestyle</option>
+                <option>Full itinerary</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="dates">Destination &amp; dates</label>
+              <input id="dates" name="dates" type="text" placeholder="e.g. Rome, 12–16 June, two travellers">
+            </div>
+            <div class="field">
+              <label for="msg">The brief</label>
+              <textarea id="msg" name="msg" placeholder="Budget, preferences, occasion, anything that matters."></textarea>
+            </div>
+            <button class="btn btn--solid" type="submit" data-magnetic="0.3">
+              Send request <span class="btn__arrow">&rarr;</span>
+            </button>
+            <p class="form-note" data-form-status>
+              This form is a front-end demo — connect it to your inbox or form service
+              before going live. Meanwhile, email us directly.
+            </p>
+          </form>
+        </div>
+
+        <div data-reveal style="--d:.1s">
+          <p class="eyebrow">Direct</p>
+          <h2 style="margin-bottom:2.2rem">Or reach us.</h2>
+
+          <ul class="info-list">
+            <li><span class="k">Email</span><span class="v"><a href="mailto:concierge@claynextt.com">concierge@claynextt.com</a></span></li>
+            <li><span class="k">Hours</span><span class="v">Mon–Sat, 08:00–21:00 CET · urgent travel disruption handled any time</span></li>
+            <li><span class="k">Office</span><span class="v">Clay Next T LLC<br>30 N Gould St, Ste N<br>Sheridan, WY 82801<br>United States</span></li>
+            <li><span class="k">Languages</span><span class="v">English, French</span></li>
+            <li><span class="k">Billing</span><span class="v">EUR, by bank transfer, invoiced after approval</span></li>
+          </ul>
+
+          <div class="frame frame--wide" data-tilt="5" data-cursor-media="Escape" style="margin-top:2.5rem">
+            <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+                 alt="Aerial view of a coastal retreat" loading="lazy">
+            <span class="frame__tag">Where next?</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow" data-reveal>FAQ</p>
+          <h2 data-reveal>Asked <em class="italic">often</em>.</h2>
+        </div>
+      </div>
+      <div class="faq" data-reveal>
+        <details>
+          <summary>How are you paid?</summary>
+          <p>A service fee is quoted per request, or agreed as a monthly retainer for
+             ongoing clients. Supplier costs — flights, hotels, cars, tickets — are
+             passed through at cost. Nothing is booked before you approve the total in
+             writing.</p>
+        </details>
+        <details>
+          <summary>Can you really get sold-out tickets?</summary>
+          <p>Often, through vetted resale partners and official channels. Availability
+             and price vary by event, and we will tell you straight away when something
+             cannot be sourced safely rather than chasing it indefinitely.</p>
+        </details>
+        <details>
+          <summary>Do you work with companies as well as private clients?</summary>
+          <p>Yes. Corporate travel, client hospitality and small group events are a
+             regular part of the work, with consolidated invoicing on request.</p>
+        </details>
+        <details>
+          <summary>What happens if something goes wrong while I'm travelling?</summary>
+          <p>You contact us, not the airline queue. We rebook, rearrange the transfer,
+             move the reservation and keep the rest of the itinerary aligned.</p>
+        </details>
+        <details>
+          <summary>How far in advance should I book?</summary>
+          <p>For flights and hotels, two to six weeks gives the best range. For major
+             events and peak-season villas, earlier is materially better — but
+             last-minute requests are welcome and often solvable.</p>
+        </details>
+        <details>
+          <summary>Is my information kept private?</summary>
+          <p>Yes. Itineraries, addresses and preferences are shared only with the
+             suppliers required to deliver the booking, and never used publicly.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-col">
+        <a class="brand" href="index.html" style="margin-bottom:1.2rem">
+          <span class="brand__mark">Clay <em>Next T</em></span>
+        </a>
+        <p>Travel concierge &amp; lifestyle services.<br>Booking and coordination, handled end to end.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#travel">Travel arrangements</a></li>
+          <li><a href="services.html#stay">Accommodation</a></li>
+          <li><a href="services.html#transport">Transportation</a></li>
+          <li><a href="services.html#tickets">Event tickets</a></li>
+          <li><a href="services.html#lifestyle">Lifestyle</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="about.html#values">How we work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Office</h4>
+        <p>Clay Next T LLC<br>30 N Gould St, Ste N<br>Sheridan, WY 82801<br>United States</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="yr">2026</span> Clay Next T LLC. All rights reserved.</span>
+      <span>Wyoming, United States</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
